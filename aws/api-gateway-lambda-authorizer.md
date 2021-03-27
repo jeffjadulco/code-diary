@@ -41,3 +41,7 @@ module.exports.handler = async (event, context) => {
 2. Stages > Logs/Tracing
 3. Check `Enable CloudWatch Logs`,select `ERROR` for `Log level` and check `Log full requests/responses data`
 4. You should see now the logs in CloudWatch in log group `API-Gateway-Execution-Logs_{api-identifier}`
+
+## Resources
+- https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-lambda-authorizer-output.html
+- https://gist.github.com/djm/15cf09b6b21c20332a602d3bca6b6d08
